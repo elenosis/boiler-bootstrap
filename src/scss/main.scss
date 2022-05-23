@@ -1,2 +1,6 @@
 // This is where you can import other stylesheets or write your scss code
-@use "../../node_modules/bootstrap/scss/bootstrap";
+@use "../../node_modules/bootstrap/scss/bootstrap" with (
+  $primary: deeppink,
+  $danger: cyan,
+  $info: green,
+);
